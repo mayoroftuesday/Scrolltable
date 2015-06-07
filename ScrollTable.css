@@ -1,0 +1,50 @@
+.ScrollTable_HiddenCell
+{
+    display: none;
+}
+.scrollXcontainer
+{
+    background-image: url(Scroll_TrackHoriz.gif);
+    background-repeat: repeat-x;
+    height: 20px;
+}
+.scrollYcontainer
+{
+    width: 20px;
+    background-image: url(Scroll_TrackVert.gif);
+    background-repeat: repeat-y;
+}
+.button
+{
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+}
+.scrollerX
+{
+    width: 40px;
+    background-image: url(Scroll_Horiz.gif);
+}
+.scrollerY
+{
+    height: 40px;
+    background-image: url(Scroll_Vert.gif);
+}
+.leftButton
+{
+    background-image: url(Scroll_Left.gif);
+}
+.rightButton
+{
+    background-image: url(Scroll_Right.gif);
+}
+.upButton
+{
+    background-image: url(Scroll_Up.gif);
+}
+.downButton
+{
+    background-image: url(Scroll_Down.gif);
+}

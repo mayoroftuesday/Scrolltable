@@ -1,0 +1,14 @@
+ - overall: use map or filter array functions?
+
+ - any way to optimize "store table"?
+
+ - speed up "set widths"
+   - allow optional "set widths"
+   - only set widths on every nth row, where n = scrollRows
+
+ - why is there time delay between init and Draw()?
+
+ - speed up "crop"?
+    - possibility: instead of crop, create new table element
+      - use push child and pop child to add cells from the master table?
+      - if in user control, server can do initial crop
